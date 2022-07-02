@@ -1,0 +1,33 @@
+{
+  "name": "md-url-validator",
+  "version": "1.0.0",
+  "description": "biblioteca para validar URLs dentro de arquivos markdown (*.md)",
+  "main": "./cli.js",
+  "bin": {
+    "md-url-validator": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "list": "node cli.js ./arquivos/texto1.md",
+    "validate": "node cli.js ./arquivos/texto1.md validar"
+  },
+  "keywords": [
+    "markdown",
+    "URL",
+    "validar"
+  ],
+  "author": "Eduardo Oliveira",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/48eddye/md-url-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/48eddye/md-url-validator/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "type": "module"
+}
